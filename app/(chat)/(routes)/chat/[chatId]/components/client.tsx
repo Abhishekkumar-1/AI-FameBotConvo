@@ -54,12 +54,14 @@ export const ChatClient = ({companion}:ChatClientProps) => {
           isLoading={isLoading}
           messages={messages}
         />
+        {/* <div className=''> */}
         <ChatForm
           isLoading={isLoading}
           input={input}
           handleInputChange={handleInputChange}
           onSubmit={onSubmit}  
         />
+        {/* </div> */}
     </div>
   )
 }
